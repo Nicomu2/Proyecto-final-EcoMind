@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Playfair Display';
+}
+
+header {
+    width: 100%;
+    height: 600px;
+    background: #56ab2f;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, hsla(87, 75%, 44%, 0.729), hsla(101, 57%, 43%, 0.766)),url(..//imagensirris/reciclaje3.jpg);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, hsla(87, 75%, 44%, 0.729), hsla(101, 57%, 43%, 0.766)),url(..//imagensirris/reciclaje3.jpg);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+header .text-header{
+    display: flex;
+    height: 430px;
+    width: 100%;
+    padding: 300px 50px;
+    align-items: left;
+    justify-content: center;
+    flex-direction: column;
+    text-align: right;
+    justify-content: flex-end;
+}
+.text-header h1{
+    font-size: 75px;
+    color: #fff;
+}
+.text-header h2{
+    font-size: 22px;
+    font-weight: 200;
+    color: #000000;
+}
+.text-header h3{
+    font-size: 22px;
+    font-weight: 200;
+    color: #000000;
+}
+.text-header h4{
+    font-size: 22px;
+    font-weight: 200;
+    color: #000000;
+}
+
+.wave{
+    position: absolute;
+    bottom: -1.07px;
+    width: 100%;
+}
+nav{
+    right: 0;
+    text-align: right;
+    padding: 15px 0 0 0;
+}
+nav > a{
+    color: #000000;
+    font-weight: 450;
+    text-decoration: none;
+    margin-right: 20px;
+}
+nav > a:hover{
+    text-decoration: underline;
+}
+
+.contenedor {
+    padding: 90px 0;
+    width: 90%;
+    max-width: 10000px;
+    margin: auto;
+}
+.titulo {
+    color: #234f1e;
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 60px;
+    margin-top: 5%;
+}
+.contenedor-sobre-ecocalculadora{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 90px;
+}
+.imagen-sobre-ecocalculadora{
+    width: 40%;
+    margin-top: -1.8%;
+    
+}
+.sobre-ecocalculadora .contenido-textos{
+    width: 48%;
+}
+.contenido-textos p{
+    padding: 0px 0px 30px 25px;
+    font-weight: 550;
+    text-align: justify;
+    color: #672008;
+    margin-top: revert;
+}
+
+.contenedor-sobre-pqcalculadora{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 90px;
+}
+.imagen-sobre-pqcalculadora{
+    width: 40%;
+    margin-top: -0.5%;
+    
+}
+.sobre-pqcalculadora .contenido-textos{
+    width: 48%;
+}
+.galeria-port{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.imagen-port{
+    width: 12%;
+    margin-bottom: 10px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+    height: 310px;
+}
+.imagen-port > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+
+
+footer{
+    background: #414141;
+    padding: 60px 0 30px 0;
+    margin: auto;
+    overflow: hidden;
+}
+.contenedor-footer{
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #ccc;
+}
+.content-foot{
+    text-align: center;
+}
+.content-foot h4{
+    background: #fff;
+    border-bottom: 3px solid #af20d3;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+.content-foot p{
+    color: #ccc;
+}
+
+.titulo-final{
+    text-align: center;
+    font-size: 24px;
+    margin: 24px 0 0 0;
+    color: #9e9797;
+}
+a:link{
+    text-decoration:none;
+    color: #000000;
+}
+a:visited{
+    text-decoration:none;
+    color: #000000;
+}
+.center-image {
+    text-align: center;
+  }
+  
+  .center-image img {
+    margin: 0 auto;
+    display: block;
+  }
+
+  .contenido-texto {
+    text-align: center;
+    margin: 20px auto;
+    width: 80%;
+  }
+
+  .contenido-texto p {
+    margin-bottom: 15px;
+  }
+  
